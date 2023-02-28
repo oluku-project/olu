@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseURL = 'https://portfolio-backend-roan.vercel.app/api/';
+const baseURL = 'https://oluku.pythonanywhere.com/api/';
 
 const axiosInstance = axios.create({
 	baseURL: baseURL,
