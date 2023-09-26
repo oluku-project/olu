@@ -27,14 +27,14 @@ const Header = () => (
 				<div className='badge-cmp app__flex'>
 					<span>👋</span>
 					<div style={{ marginLeft: 20 }}>
-						<p className='p-text'>Hello, we are</p>
-						<h1 className='head-text'>Zilla Tech</h1>
+						<p className='p-text'>Zilla Tech: Innovate. Create. Achieve.</p>
+						<h1 className='head-text'>Your Technology Partner for Innovative Solutions</h1>
 					</div>
 				</div>
 
 				<div className='tag-cmp app__flex'>
-					<p className='p-text'>A tech solution firmr</p>
-					<p className='p-text'>Freelancer</p>
+					<p className='p-text'>Zilla Tech is a team of tech enthusiasts driven by innovation and creativity.</p>
+					<p className='p-text'>We are passionate about transforming ideas into cutting-edge solutions that help our clients succeed.</p>
 				</div>
 			</div>
 		</motion.div>
