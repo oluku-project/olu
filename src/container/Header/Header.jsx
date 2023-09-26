@@ -28,13 +28,13 @@ const Header = () => (
 					<span>👋</span>
 					<div style={{ marginLeft: 20 }}>
 						<p className='p-text'>Your Technology Partner for Innovative Solutions</p>
-						<h1 className='head-text'>Innovate. Create. Achieve.</h1>
+						<h1 className='head-text'>Succeed</h1>
 					</div>
 				</div>
 
 				<div className='tag-cmp app__flex'>
-					<p className='p-text'>Zilla Tech is a team of tech enthusiasts driven by innovation and creativity.</p>
-					<p className='p-text'>We are passionate about transforming ideas into cutting-edge solutions that help our clients succeed.</p>
+					<p className='p-text'>Zilla Tech: Where Innovation Meets Success.</p>
+					<p className='p-text'>Join us on the journey!</p>
 				</div>
 			</div>
 		</motion.div>
