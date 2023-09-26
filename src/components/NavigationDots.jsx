@@ -1,5 +1,4 @@
 import React from 'react';
-
 const NavigationDots = ({ active }) => (
   <div className="app__navigation">
     {['home', 'about', 'services', 'skills', 'testimonial', 'contact'].map((item, index) => (
@@ -12,5 +11,4 @@ const NavigationDots = ({ active }) => (
     ))}
   </div>
 );
-
 export default NavigationDots;
