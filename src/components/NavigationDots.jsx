@@ -1,5 +1,3 @@
-/* eslint-disable JSX-a11y/control-has-associated-label */
-/* eslint-disable JSX-a11y/anchor-has-content */
 import React from 'react';
 
 const NavigationDots = ({ active }) => (

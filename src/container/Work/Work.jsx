@@ -48,7 +48,6 @@ const Work = () => {
 				setFilterWork(
 					works.filter((work) => {
 						let newData;
-						// console.log('work: ', work.tags[0].tag)
 						work.tags.filter((v) => {
 							if (v.tag.includes(item)) {
 								newData = work;
@@ -112,14 +111,12 @@ const Work = () => {
 										<AiFillEye />
 									</motion.div>
 								</a>
-{/* 								<a href={work.codeLink} target='_blank' rel='noreferrer'> */}
 									<motion.div
 										whileInView={{ scale: [0, 1] }}
 										whileHover={{ scale: [1, 0.9] }}
 										transition={{ duration: 0.25 }}
 										className='app__flex'
 									>
-{/* 										<AiFillGithub /> */}
 									</motion.div>
 								</a>
 							</motion.div>
